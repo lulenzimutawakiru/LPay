@@ -1,0 +1,12 @@
+# Terraform local artifacts
+**/.terraform/
+*.tfplan
+tfplan
+
+# Sensitive variable files
+*.tfvars
+!*.tfvars.example
+
+# OS/editor
+.DS_Store
+Thumbs.db
